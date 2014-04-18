@@ -26,7 +26,7 @@
 			port="${NANO_RABBIT_PORT:5672}"/>
 	</beans>
 	<beans profile="default">
-		<cloud:rabbit-connection-factory id="connectionFactory"/>
+ 		<cloud:rabbit-connection-factory id="connectionFactory"/>
 	</beans>
 	
 	<!--  Enable clustered rabbit brokers by adding "clusteredRabbit" 

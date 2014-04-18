@@ -96,7 +96,7 @@
 			<prop key="hb2ddl_auto">create-drop</prop>
 			<prop key="import_files">/importrefdata.sql</prop>
 		</util:properties>
-		<cloud:data-source id="dataSource">
+		<cloud:data-source id="dataSource" service-name="tradersql">
 			<cloud:connection properties="sessionVariables=sql_mode='ANSI';characterEncoding=UTF-8;defaultTransactionIsolation=2" />
 			<cloud:pool pool-size="2" max-wait-time="200" />
 		</cloud:data-source>
