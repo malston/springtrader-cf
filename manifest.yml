@@ -1,7 +1,7 @@
 ---
 timeout: 180
 memory: 1G
-#domain: cfapps.io
+#domain: cfapps.io testing
 domain: 10.244.0.34.xip.io
 instances: 1
 services:
